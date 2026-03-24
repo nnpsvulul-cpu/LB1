@@ -8,7 +8,7 @@ namespace Variant10
         private string nickname;
         private string breed;
         private float age;
-
+        // Конструктор с параметрами323а
         public Dog()
         {
             nickname = "Неизвестно";
