@@ -8,7 +8,7 @@ namespace Variant10
         private string nickname;
         private string breed;
         private float age;
-
+        // Конструктор с параметрами323а
         public Dog()
         {
             nickname = "Неизвестно";
@@ -31,12 +31,28 @@ namespace Variant10
             Console.WriteLine(new string('-', 30));
         }
     }
+    //im circl
 
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Демонстрация класса Dog");
+            Console.WriteLine();
 
+            Dog dog1 = new Dog();
+            Console.WriteLine("Объект dog1 (конструктор по умолчанию):");
+            dog1.Print();
+
+            Dog dog2 = new Dog("Рекс", "Немецкая овчарка", 3.5f);
+            Console.WriteLine("Объект dog2 (конструктор с параметрами):");
+            dog2.Print();
+
+            Dog dog3 = new Dog("Шарик", "Дворняга", 1.2f);
+            Console.WriteLine("Объект dog3:");
+            dog3.Print();
+
+            Console.ReadKey();//ede
         }
     }
 }
