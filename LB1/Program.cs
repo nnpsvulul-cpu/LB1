@@ -53,6 +53,8 @@ namespace Variant10
             dog3.Print();
 
             Console.ReadKey();//ede
+
+            Console.ReadKey();//rfrrgjierahog
         }
     }
 }
